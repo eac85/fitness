@@ -3,17 +3,22 @@
 	src: url("Sneakers.ttf");
 }
 
+@font-face{
+	font-family: vegetables;
+	src: url("Vegetables.ttf");
+}
+
 @font-face {
 	font-family: photo;
 	src: url("Photographs.ttf");
 }
 
 .title{
-	font-family: sneaker;
+	font-family: vegetables;
 	text-align: center;
 	font-size: 200px;
 	padding-top: 0px;
-	color:  black ;
+	color:    #aed581   ;
 }
 
 
@@ -42,7 +47,7 @@ li a {
 }
 
 li a:hover{
-	color:  #f1c40f ;
+	color:   #aed581 ;
 }
 
 li a:visited{
