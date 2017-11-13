@@ -1,0 +1,67 @@
+@font-face {
+	font-family: sneaker;
+	src: url("Sneakers.ttf");
+}
+
+@font-face {
+	font-family: photo;
+	src: url("Photographs.ttf");
+}
+
+@font-face {
+	font-family: gym;
+	src: url("GYM.ttf");
+}
+
+.title{
+	font-family: gym;
+	text-align: center;
+	font-size: 100px;
+	padding-top: 0px;
+	color:  black ;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+	text-align: center;
+	display:inline-block;
+    font-size: 30px;
+    color: black;
+}
+
+li a {
+	color: black;
+    display: inline-block;
+    padding: 40px;
+    font-family: photo;
+    text-decoration-style: none;
+    text-decoration: none;
+}
+
+li a:hover{
+	color:  #f1c40f ;
+}
+
+li a:visited{
+	text-decoration-style:  none;
+}
+
+.date {
+	font-family: photo;
+	text-decoration: bold;
+	font-color: green;
+	font-size: 50px;
+}
+
+body {
+	padding-left: 50px;
+	padding-right: 50px;
+}
