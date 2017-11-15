@@ -47,7 +47,7 @@ li a {
 }
 
 li a:hover{
-	color:  #f1c40f ;
+	color:  #aed581 ;
 }
 
 li a:visited{
@@ -57,11 +57,17 @@ li a:visited{
 .date {
 	font-family: photo;
 	text-decoration: bold;
-	font-color: green;
+	color: #aed581;
 	font-size: 50px;
 }
 
 body {
 	padding-left: 50px;
 	padding-right: 50px;
+}
+
+.workout{
+	font-family: photo;
+	font-size: 25px;
+	font-color: gray;
 }
