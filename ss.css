@@ -13,6 +13,15 @@
 	src: url("GYM.ttf");
 }
 
+@font-face{
+	font-family:stone;
+	src:url("Shutter Stone Standar.ttf");
+}
+
+@font-face{
+	font-family:blessing;
+	src:url("Blessing in Disguise Regular.otf");
+}
 .title{
 	font-family: gym;
 	text-align: center;
