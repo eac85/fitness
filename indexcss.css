@@ -13,8 +13,13 @@
 	src: url("Photographs.ttf");
 }
 
+@font-face{
+	font-family:stone;
+	src:url("Shutter Stone Standar.ttf");
+}
+
 .title{
-	font-family: vegetables;
+	font-family: stone;
 	text-align: center;
 	font-size: 200px;
 	padding-top: 0px;
