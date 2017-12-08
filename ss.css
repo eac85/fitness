@@ -71,8 +71,8 @@ li a:visited{
 }
 
 body {
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 75px;
+	padding-right: 75px;
 }
 
 .workout{
@@ -82,6 +82,30 @@ body {
 }
 
 #cardio{
-	width: 100%;
+	width: 50%;
 	height: 300px;
+}
+
+#codexpl{
+	<--padding: 50px;-->
+}
+
+#codexpl th, #codexpl td{
+    padding:0.8em;
+    border: none;
+}
+#codexpl th{
+    background-color:#aed581;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.plans caption{
+font-family: blessing;
+padding: 50px;
+font-size: 50px;
+}
+
+table{
+	display:inline-block;
 }
