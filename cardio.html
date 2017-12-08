@@ -2,6 +2,7 @@
 <html>
 <head>
 <link REL="STYLESHEET" TYPE="text/css" HREF="ss.css"> 
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <title> Cardio </title>
 </head>
 
@@ -12,19 +13,45 @@
   <li><a href="../fitness/index.html">home</a></li>
   <li><a href="../fitness/cardio.html">cardio</a></li>
   <li><a href="../fitness/liftlog.html">lift</a></li>
-  <li><a href="#about">schedule</a></li>
+  <li><a href="../fitness/schedule.html">schedule</a></li>
 </ul>
 
+<div id='cardio'> </div>
 
-	  
-	  
-<div class="date">
-Wednesday Nov 15th
-</div>
+  <script>
+ var peak = {
+  type: 'bar',
+  x: [14, 21],
+  y: ['12/4', '12/7'],
+  orientation: 'h',
+  marker: {color: 'rgb( 231, 76, 60 )', }
+};
 
-<div class="workout">
-30 min treadmill
-</div>
+var card = {
+  type: 'bar',
+  x: [10, 26],
+  y: ['12/4', '12/7'],
+  orientation: 'h',
+  marker: {color: 'rgb(245, 176, 65)', }
+};
+
+var fat = {
+  type: 'bar',
+  x: [4,30],
+  y: ['12/4', '12/7'],
+  orientation: 'h',
+  marker: {color: 'rgb( 244, 208, 63)',}
+};
+
+var data = [peak, card, fat]
+
+var layout = {
+  title: 'Cardio',
+  barmode: 'stack'
+};
+
+Plotly.newPlot('cardio', data, layout);
+  </script>
 
 </body>
 </html> 
